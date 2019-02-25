@@ -75,6 +75,7 @@ class App extends Component {
       this.state.languages = [];
       this.state.chain = {};
       this.state.temp = "";
+      console.log("I am logging this");
     }
 
     var lang = code || 'en';
