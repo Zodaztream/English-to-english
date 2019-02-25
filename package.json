@@ -1,0 +1,25 @@
+{
+  "name": "englishtoenglish",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://zodaztream.github.io/English-to-english/",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "material-ui": "^0.20.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-mdl": "^1.11.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
