@@ -73,7 +73,8 @@ class App extends Component {
   fetchLanguage = (event ,code) => {
     if(event){
       this.state.languages = [];
-      this.state.chain = {}
+      this.state.chain = {};
+      this.state.temp = "";
     }
 
     var lang = code || 'en';
