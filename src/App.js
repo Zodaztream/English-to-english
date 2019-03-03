@@ -30,7 +30,7 @@ class App extends Component {
   constructor(props){
     super(props) 
 
-    this.state={text:"Type something",output:"Empty, no longer empty", languages:[], language:[], chain:{}, temp:""}
+    this.state={text:"Type something",output:"Resulting text is shown here", languages:[], language:[], chain:{}, temp:""}
   }
 
   translate = () => {
