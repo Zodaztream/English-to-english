@@ -93,19 +93,14 @@ class App extends Component {
 <div style={{height: '300px', position: 'relative'}}>
 <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
     <Header transparent title="English to English" style={{color: 'white'}}>
-        <Navigation>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-        </Navigation>
+
     </Header>
 
     <div align = "center">
 
           <DialogContent>
             <p style={{color:"white"}}>It's fairly simple to use. All you have to do is <br/>
-            simply <b>fetch the languages</b>, and then type something in and then press translate.</p>
+            <b>fetch the languages</b> then type something and finally translate.</p>
           </DialogContent>
 
       </div>
